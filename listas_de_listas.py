@@ -1,10 +1,16 @@
 def matrices(): 
- matriz = [[1,2,3],
-           [4,5,6],
-           [7,8,9]]
- for matri in matriz:
-    print(matri)
-
+    matriz = [[1,2,3],
+              [4,5,6],
+              [7,8,9]]
+ 
+    for matri in matriz:
+        print(matri)
+    
+    elemento1 = matriz[0][1]
+    print(elemento1)
+    matriz[0][1] = 10
+    for matri in matriz:
+        print(matri)
 matrices()
 
 matriz = [[1,2,3],
