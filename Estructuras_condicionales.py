@@ -15,7 +15,7 @@ if x > 10 or y > 25:
 if not x>10:
     print("X no es mayor que 10")
     
-is_member: True
+is_member = True
 age = 15
 
 if is_member:
